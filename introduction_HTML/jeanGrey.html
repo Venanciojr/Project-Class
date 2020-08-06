@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>My project X-men</title>
+        <link rel="icon" type="image/png" href="imgs/logoXmen.png"/>
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            section { 
+              display: block;
+              width: 40%;
+              height: 40%;
+              margin-top: 20px;
+              margin-left: 20px;
+              margin-bottom: 20px;
+              float: left;
+              
+            }
+            article{
+                margin-top: 20px;  
+            }
+            aside {
+               display: block;
+               width: 40%;
+               height: 40%;
+               margin-top: 20px;
+               margin-bottom: 20px;
+               margin-right: 20px;
+               float: right;
+            }   
+            footer{
+                width: 90%;
+                height: 20%;
+                margin-top: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
+                clear: both;
+                
+            }
+            img{
+                border: 1px solid black;
+            }
+            h1 {
+
+              text-align: center; 
+                
+            }
+            #menu ul {
+                text-align: center;
+                padding:20px;
+                margin:10px;
+                background-color:black;
+                color: white;
+                list-style:none;
+            }
+            #menu ul li {
+                display: inline;
+            }
+            #menu li {
+                padding: 20px;
+                margin: 10px;
+                text-align: center;
+                font-size: 17pt;
+            }
+           #menu ul li:hover {
+                background-color: red;
+                padding: 20px;
+                margin: 10px;
+                
+            }
+           #menu a {
+                text-decoration: none;
+                color: white;
+                display:inline-block;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>X-Men Characters  <img src="imgs/logoMarvel.png" width="100px"  alt="logo of Marvel"/>
+            </h1>
+            
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Storm</a></li>
+                    <li><a href="Wolverine.html">Wolverine</a></li>
+                    <li><a href="rogue.html">Rogue</a></li>
+                    <li><a href="cyclops.html">Cyclops</a></li>
+                    <li><a href="jeanGrey.html">Jean Grey</a></li>
+                    <li><a href="professorX.html">Professor X</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1>Jean Grey</h1>
+            <label for="file">STRENGTH: (60%) </label>
+            <progress id="file" value="60" max="100"> 60% </progress> <br>
+            <label for="file">SPEED: (50%)    </label>
+            <progress id="file" value="50" max="100"> 50% </progress> <br>
+            <label for="file">FIGHTING SKILLS: (20%) </label>
+            <progress id="file" value="20" max="100">20% </progress>
+            <article>
+                <details>
+                    <summary>Biography</summary>
+                    <p>The younger daughter of history professor John Grey and his wife Elaine, Jean Grey was 10 years old when her mutant telepathic powers first manifested after experiencing the emotions of a dying friend. Her parents took her to be treated by Professor Charles Xavier. While Xavier treated Jean he also used her to fine tune his Cerebro machine. When Xavier introduced young Jean to the astral plane a part of her mind manifested as a Phoenix raptor and touched the mind of Scott Summers in the orphanage. Later, Xavier erected psychic shields in Jean’s mind to prevent her from using her telepathic powers until she was mature enough to control them. Eventually, using her telekinetic powers, Jean was a founding member of Xavier’s team of mutant trainees the X-Men as Marvel Girl. Upon a mission in outer space Jean was noticed by the Phoenix Force which took note of her unlimited potential. At this moment Jean had a vision of becoming the Phoenix but the vision faded from her memory as it ended. She soon fell in love with fellow student Scott Summers, and later would develop a strong attraction towards one of the team’s new recruits, the feral Wolverine.</p>
+                </details>
+                
+            </article>
+
+        </section>
+        <aside>
+            <figure>
+                <img src="imgs/jeanGrey.jpg" width="60%"  alt="Jean Grey X-men"/>
+            </figure>
+        </aside>
+        <footer>
+            <p> This page was created by Venancio Moraes Junior and Colleen van Lent. To learn more about web design, visit <a href="http://www.intro-webdesign.com">Intro to Web Design.</a> </p>
+        </footer>
+    </body>
+</html>

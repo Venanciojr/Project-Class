@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>My project X-men</title>
+        <link rel="icon" type="image/png" href="imgs/logoXmen.png"/>
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            section { 
+              display: block;
+              width: 40%;
+              height: 40%;
+              margin-top: 20px;
+              margin-left: 20px;
+              margin-bottom: 20px;
+              float: left;
+              
+            }
+            article{
+                margin-top: 20px;  
+            }
+            aside {
+               display: block;
+               width: 40%;
+               height: 40%;
+               margin-top: 20px;
+               margin-bottom: 20px;
+               margin-right: 20px;
+               float: right;
+            }   
+            footer{
+                width: 90%;
+                height: 20%;
+                margin-top: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
+                clear: both;
+                
+            }
+            img{
+                border: 1px solid black;
+            }
+            h1 {
+
+              text-align: center; 
+                
+            }
+            #menu ul {
+                text-align: center;
+                padding:20px;
+                margin:10px;
+                background-color:black;
+                color: white;
+                list-style:none;
+            }
+            #menu ul li {
+                display: inline;
+            }
+            #menu li {
+                padding: 20px;
+                margin: 10px;
+                text-align: center;
+                font-size: 17pt;
+            }
+           #menu ul li:hover {
+                background-color: red;
+                padding: 20px;
+                margin: 10px;
+                
+            }
+           #menu a {
+                text-decoration: none;
+                color: white;
+                display:inline-block;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>X-Men Characters  <img src="imgs/logoMarvel.png" width="100px"  alt="logo of Marvel"/>
+            </h1>
+            
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Storm</a></li>
+                    <li><a href="Wolverine.html">Wolverine</a></li>
+                    <li><a href="rogue.html">Rogue</a></li>
+                    <li><a href="cyclops.html">Cyclops</a></li>
+                    <li><a href="jeanGrey.html">Jean Grey</a></li>
+                    <li><a href="professorX.html">Professor X</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1>Professor X</h1>
+            <label for="file">STRENGTH: (40%) </label>
+            <progress id="file" value="40" max="100"> 40% </progress> <br>
+            <label for="file">SPEED: (40%)    </label>
+            <progress id="file" value="40" max="100"> 40% </progress> <br>
+            <label for="file">FIGHTING SKILLS: (20%) </label>
+            <progress id="file" value="20" max="100">20% </progress>
+            <article>
+                <details>
+                    <summary>Biography</summary>
+                    <p> Charles Xavier is the son of nuclear researcher Brian Xavier and his wife Sharon. After Brian Xavier's death, Sharon married his colleague Dr. Kurt Marko, whose son by a previous marriage, Cain, bullied the young Charles. Charles' telepathic powers began emerging when he was still a boy, and as he grew older he learned to control them. A brilliant student, he entered graduate studies at England's Oxford University, where he met and fell in love with a young Scotswoman named Moira MacTaggert. They planned to be married, but after finishing his work at Oxford, Xavier was drafted and sent to Asia. There Xavier and Cain Marko served in the same unit. Xavier witnessed how Marko found the mystical ruby in the temple of Cyttorak that transformed him into the superhuman Juggernaut .</p>
+                </details>
+                
+            </article>
+
+        </section>
+        <aside>
+            <figure>
+                <img src="imgs/professorX.jpg" width="60%" alt="Professor X X-men"/>
+            </figure>
+        </aside>
+        <footer>
+            <p> This page was created by Venancio Moraes Junior and Colleen van Lent. To learn more about web design, visit <a href="http://www.intro-webdesign.com">Intro to Web Design.</a> </p>
+        </footer>
+    </body>
+</html>

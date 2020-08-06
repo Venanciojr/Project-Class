@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>My project X-men</title>
+        <link rel="icon" type="image/png" href="imgs/logoXmen.png"/>
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            section { 
+              display: block;
+              width: 40%;
+              height: 40%;
+              margin-top: 20px;
+              margin-left: 20px;
+              margin-bottom: 20px;
+              float: left;
+              
+            }
+            article{
+                margin-top: 20px;  
+            }
+            aside {
+               display: block;
+               width: 40%;
+               height: 40%;
+               margin-top: 20px;
+               margin-bottom: 20px;
+               margin-right: 20px;
+               float: right;
+            }   
+            footer{
+                width: 90%;
+                height: 20%;
+                margin-top: 20px;
+                margin-left: 20px;
+                margin-right: 20px;
+                clear: both;
+                
+            }
+            img{
+                border: 1px solid black;
+            }
+            h1 {
+
+              text-align: center; 
+                
+            }
+            #menu ul {
+                text-align: center;
+                padding:20px;
+                margin:10px;
+                background-color:black;
+                color: white;
+                list-style:none;
+            }
+            #menu ul li {
+                display: inline;
+            }
+            #menu li {
+                padding: 20px;
+                margin: 10px;
+                text-align: center;
+                font-size: 17pt;
+            }
+           #menu ul li:hover {
+                background-color: red;
+                padding: 20px;
+                margin: 10px;
+                
+            }
+            #menu a {
+                text-decoration: none;
+                color: white;
+                display:inline-block;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>X-Men Characters  <img src="imgs/logoMarvel.png" width="100px"  alt="logo of Marvel"/>
+            </h1>
+            
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Storm</a></li>
+                    <li><a href="Wolverine.html">Wolverine</a></li>
+                    <li><a href="rogue.html">Rogue</a></li>
+                    <li><a href="cyclops.html">Cyclops</a></li>
+                    <li><a href="jeanGrey.html">Jean Grey</a></li>
+                    <li><a href="professorX.html">Professor X</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1>Wolverine</h1>
+            <label for="file">STRENGTH: (50%) </label>
+            <progress id="file" value="50" max="100"> 50% </progress> <br>
+            <label for="file">SPEED: (30%)    </label>
+            <progress id="file" value="30" max="100"> 30% </progress> <br>
+            <label for="file">FIGHTING SKILLS: (70%) </label>
+            <progress id="file" value="70" max="100"> 70% </progress>
+            <article>
+                <details>
+                    <summary>Biography</summary>
+                    <p>James Howlett/Logan was born to wealthy John and Elizabeth Howlett in Alberta, Canada, during the last years of the 19th century.Wolverine’s rapid regeneration powers allow him to bounce back from almost every type of bodily wound on the condition that his head remains firmly attached to his shoulders. Nevertheless, the time of each healing is understandably proportionate to the severity of the injury. His body is also immune to most poisons, drugs, and diseases; his agility, reflexes, and senses are similarly enhanced. Wolverine sees and hears things at distances far greater than those of ordinary humans. His sense of smell is even more magnified and he can recognize people and objects by scent alone, which, combined with combat and stealth training, makes him one of the world’s foremost trackers.</p>
+                </details>
+                
+            </article>
+
+        </section>
+        <aside>
+            <figure>
+                <img src="imgs/Wolverine.jpg" width="60%"  alt="wolverine X-men"/>
+            </figure>
+        </aside>
+        <footer>
+            <p> This page was created by Venancio Moraes Junior and Colleen van Lent. To learn more about web design, visit <a href="http://www.intro-webdesign.com">Intro to Web Design.</a> </p>
+        </footer>
+    </body>
+</html>
